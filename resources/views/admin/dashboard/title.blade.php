@@ -9,6 +9,11 @@
         margin: 20px 0 10px 0px;
     }
 
+    .name {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
     .links {
         text-align: center;
         margin-bottom: 20px;
@@ -26,7 +31,7 @@
 </style>
 
 <div class="title">
-    欢迎您：{{auth('admin')->user()->username}}
+    欢迎您&nbsp;<span class="name">{{auth('admin')->user()->name}}</span>
 </div>
 <div class="links">
     <br>

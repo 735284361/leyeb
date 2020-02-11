@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => '互助社',
+    'name' => '互助社企业管理系统',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>互助社</b> 管理系统',
+    'logo' => '<b>互助社</b> 企业管理系统',
 
     /*
     |--------------------------------------------------------------------------
@@ -300,7 +300,7 @@ return [
     | This value is used to set the background image of login page.
     |
     */
-    'login_background_image' => '',
+    'login_background_image' =>'/storage/images/bg.png',
 
     /*
     |--------------------------------------------------------------------------

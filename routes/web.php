@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return URL::asset('images/55b8df23e99584ae80b07dc5ad64496a.png');
+//    return view('welcome');
 });
