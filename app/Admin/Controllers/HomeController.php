@@ -15,7 +15,6 @@ class HomeController extends Controller
 {
     public function index(Content $content)
     {
-
         return $content
             ->title('首页')
             ->description('主页面板...')
